@@ -18,6 +18,7 @@ plot(st_geometry(shp)) # plot to check
 
 # get bbox
 bbox<-as.numeric(st_bbox(shp))
+#bbx<-c(-110.95189,31.75740,-110.79884,31.90542)
 # convert to ACISbbox
 ACISbbox<-paste(as.character(bbox), collapse=",")
 #ACISbbox<- "-111.45093,31.33234,-108.92062,33.00649"
